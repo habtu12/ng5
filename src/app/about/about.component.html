@@ -1,3 +1,9 @@
 <p>
   This is what I'm all about. <a href="" (click)="sendMeHome()"><strong>Take me back</strong></a>
 </p>
+<div>
+  <ul *ngFor="let value of values">
+    <li>{{value.title}}</li>
+    <li>{{value.complete}}</li>
+  </ul>
+</div>
